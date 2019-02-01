@@ -16,7 +16,7 @@
 		77501AB52203FE4C00B666E1 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */; };
 		77501AB72203FE8000B666E1 /* AutografoViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB62203FE8000B666E1 /* AutografoViewManager.swift */; };
 		77501AB92203FEBB00B666E1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB82203FEBB00B666E1 /* UIColor+Extensions.swift */; };
-		77A638B72204A6A700F5A4CA /* RNAutografo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A638B62204A6A700F5A4CA /* RNAutografo.m */; };
+		77A639092204AA3500F5A4CA /* RNAutografo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A639082204AA3400F5A4CA /* RNAutografo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,7 @@
 		77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		77501AB62203FE8000B666E1 /* AutografoViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutografoViewManager.swift; sourceTree = "<group>"; };
 		77501AB82203FEBB00B666E1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		77A638B62204A6A700F5A4CA /* RNAutografo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNAutografo.m; path = ../../../../../.Trash/RNAutografo/RNAutografo.m; sourceTree = "<group>"; };
+		77A639082204AA3400F5A4CA /* RNAutografo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutografo.m; sourceTree = "<group>"; };
 		77E99A7422036CE400B27ED9 /* libRNAutografo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAutografo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,7 @@
 				77501A9C2203FC8A00B666E1 /* Autografo.swift */,
 				77501AB62203FE8000B666E1 /* AutografoViewManager.swift */,
 				77501A942203FC8900B666E1 /* RNAutografo-Bridging-Header.h */,
-				77A638B62204A6A700F5A4CA /* RNAutografo.m */,
+				77A639082204AA3400F5A4CA /* RNAutografo.m */,
 			);
 			path = RNAutografo;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 				77501AB92203FEBB00B666E1 /* UIColor+Extensions.swift in Sources */,
 				77501AB02203FE3C00B666E1 /* SignatureDrawingModelAsync.swift in Sources */,
 				77501AB52203FE4C00B666E1 /* CGPoint+Extensions.swift in Sources */,
-				77A638B72204A6A700F5A4CA /* RNAutografo.m in Sources */,
+				77A639092204AA3500F5A4CA /* RNAutografo.m in Sources */,
 				77501AAF2203FE3C00B666E1 /* SignatureBezierProvider.swift in Sources */,
 				77501AAE2203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift in Sources */,
 				77501AB72203FE8000B666E1 /* AutografoViewManager.swift in Sources */,
