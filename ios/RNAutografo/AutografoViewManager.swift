@@ -11,12 +11,12 @@ class AutografoViewManager: RCTViewManager {
     override func view() -> UIView! {
         return AutografoView()
     }
-    
+
     override
     static func requiresMainQueueSetup() -> Bool {
         return true
     }
-    
+
     @objc
     func reset(_ node: NSNumber) {
         DispatchQueue.main.async {
@@ -24,7 +24,7 @@ class AutografoViewManager: RCTViewManager {
             component.reset()
         }
     }
-    
+
     @objc
     func save(_ node: NSNumber, fileName: NSString) {
         if (!(fileName as String).isEmpty) {
