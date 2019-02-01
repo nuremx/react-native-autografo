@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/nuremx/react-native-autografo/issues"
   },
-  "homepage": "https://github.com/nuremx/react-native-autografo#readme"
+  "homepage": "https://github.com/nuremx/react-native-autografo#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
 }

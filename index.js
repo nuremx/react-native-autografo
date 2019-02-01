@@ -1,3 +1,3 @@
-import Autografo from "./Autografo";
+import Autografo from './lib/Autografo'
 
-export default Autografo;
+export default Autografo
