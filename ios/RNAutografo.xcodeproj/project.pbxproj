@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77501AA42203FC8A00B666E1 /* Autografo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501A9C2203FC8A00B666E1 /* Autografo.swift */; };
+		77501AAE2203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AA82203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift */; };
+		77501AAF2203FE3C00B666E1 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */; };
+		77501AB02203FE3C00B666E1 /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */; };
+		77501AB12203FE3C00B666E1 /* RNAutografo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAB2203FE3C00B666E1 /* RNAutografo.m */; };
+		77501AB22203FE3C00B666E1 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAC2203FE3C00B666E1 /* SignatureDrawingViewController.swift */; };
+		77501AB32203FE3C00B666E1 /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */; };
+		77501AB52203FE4C00B666E1 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */; };
+		77501AB72203FE8000B666E1 /* AutografoViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB62203FE8000B666E1 /* AutografoViewManager.swift */; };
+		77501AB92203FEBB00B666E1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB82203FEBB00B666E1 /* UIColor+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77E99A7222036CE400B27ED9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77501A942203FC8900B666E1 /* RNAutografo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAutografo-Bridging-Header.h"; sourceTree = "<group>"; };
+		77501A9C2203FC8A00B666E1 /* Autografo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autografo.swift; sourceTree = "<group>"; };
+		77501AA72203FE3C00B666E1 /* RNAutografo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAutografo-Bridging-Header.h"; sourceTree = "<group>"; };
+		77501AA82203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
+		77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
+		77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
+		77501AAB2203FE3C00B666E1 /* RNAutografo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutografo.m; sourceTree = "<group>"; };
+		77501AAC2203FE3C00B666E1 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
+		77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
+		77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		77501AB62203FE8000B666E1 /* AutografoViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutografoViewManager.swift; sourceTree = "<group>"; };
+		77501AB82203FEBB00B666E1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		77E99A7422036CE400B27ED9 /* libRNAutografo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAutografo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E99A7122036CE400B27ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77501AA62203FCB000B666E1 /* UberSignature */ = {
+			isa = PBXGroup;
+			children = (
+				77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */,
+				77501AA72203FE3C00B666E1 /* RNAutografo-Bridging-Header.h */,
+				77501AAB2203FE3C00B666E1 /* RNAutografo.m */,
+				77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */,
+				77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */,
+				77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */,
+				77501AAC2203FE3C00B666E1 /* SignatureDrawingViewController.swift */,
+				77501AA82203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift */,
+			);
+			path = UberSignature;
+			sourceTree = "<group>";
+		};
+		77E99A6B22036CE400B27ED9 = {
+			isa = PBXGroup;
+			children = (
+				77E99A7622036CE400B27ED9 /* RNAutografo */,
+				77E99A7522036CE400B27ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E99A7522036CE400B27ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E99A7422036CE400B27ED9 /* libRNAutografo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E99A7622036CE400B27ED9 /* RNAutografo */ = {
+			isa = PBXGroup;
+			children = (
+				77501AA62203FCB000B666E1 /* UberSignature */,
+				77501AB82203FEBB00B666E1 /* UIColor+Extensions.swift */,
+				77501A9C2203FC8A00B666E1 /* Autografo.swift */,
+				77501AB62203FE8000B666E1 /* AutografoViewManager.swift */,
+				77501A942203FC8900B666E1 /* RNAutografo-Bridging-Header.h */,
+			);
+			path = RNAutografo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E99A7322036CE400B27ED9 /* RNAutografo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E99A7B22036CE400B27ED9 /* Build configuration list for PBXNativeTarget "RNAutografo" */;
+			buildPhases = (
+				77E99A7022036CE400B27ED9 /* Sources */,
+				77E99A7122036CE400B27ED9 /* Frameworks */,
+				77E99A7222036CE400B27ED9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAutografo;
+			productName = RNAutografo;
+			productReference = 77E99A7422036CE400B27ED9 /* libRNAutografo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E99A6C22036CE400B27ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Nure;
+				TargetAttributes = {
+					77E99A7322036CE400B27ED9 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 77E99A6F22036CE400B27ED9 /* Build configuration list for PBXProject "RNAutografo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77E99A6B22036CE400B27ED9;
+			productRefGroup = 77E99A7522036CE400B27ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E99A7322036CE400B27ED9 /* RNAutografo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E99A7022036CE400B27ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77501AB22203FE3C00B666E1 /* SignatureDrawingViewController.swift in Sources */,
+				77501AB92203FEBB00B666E1 /* UIColor+Extensions.swift in Sources */,
+				77501AB02203FE3C00B666E1 /* SignatureDrawingModelAsync.swift in Sources */,
+				77501AB52203FE4C00B666E1 /* CGPoint+Extensions.swift in Sources */,
+				77501AAF2203FE3C00B666E1 /* SignatureBezierProvider.swift in Sources */,
+				77501AAE2203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift in Sources */,
+				77501AB72203FE8000B666E1 /* AutografoViewManager.swift in Sources */,
+				77501AA42203FC8A00B666E1 /* Autografo.swift in Sources */,
+				77501AB32203FE3C00B666E1 /* SignatureDrawingModel.swift in Sources */,
+				77501AB12203FE3C00B666E1 /* RNAutografo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77E99A7922036CE400B27ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77E99A7A22036CE400B27ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E99A7C22036CE400B27ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNAutografo/RNAutografo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77E99A7D22036CE400B27ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNAutografo/RNAutografo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E99A6F22036CE400B27ED9 /* Build configuration list for PBXProject "RNAutografo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E99A7922036CE400B27ED9 /* Debug */,
+				77E99A7A22036CE400B27ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E99A7B22036CE400B27ED9 /* Build configuration list for PBXNativeTarget "RNAutografo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E99A7C22036CE400B27ED9 /* Debug */,
+				77E99A7D22036CE400B27ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E99A6C22036CE400B27ED9 /* Project object */;
+}
