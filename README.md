@@ -1,4 +1,4 @@
-# react-native-autografo
+<h1 align="center">Autografo</h1>
 
 ![React Native Autografo](resources/autografo.gif)
 
@@ -8,9 +8,9 @@
 [![downloads](https://img.shields.io/npm/dw/react-native-autografo.svg)](https://www.npmjs.com/package/react-native-autografo)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nuremx/react-native-autografo/pulls)
 
-> iOS only
+> Currently iOS only
 
-React Native component to obtain user signature on a png image, saved to device storage or returned in base64
+React Native component to obtain user signature as a png image, saved to device storage or returned as base64 string. Based on [**Uber Signature**](https://github.com/uber/UberSignature).
 
 ## Installation
 
@@ -90,6 +90,6 @@ class MyComponent extends Component {
 
 ## License
 
-Based on awersome project [**Uber Signature**](https://github.com/uber/UberSignature)
+Based on the awesome project [**Uber Signature**](https://github.com/uber/UberSignature)
 
 MIT - LICENSE
