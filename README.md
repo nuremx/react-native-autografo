@@ -26,30 +26,42 @@ react-native link react-native-autografo
 
 ## Usage
 
-```javascript
-<Autografo
-  stroke={{ color: '#000000' }}
-  onSave={this.handleSave}
-  onReset={this.handleReset}
-  fileName="signature"
-  hiddenButtons
->
-  {(save, reset) => (
-    <View
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexDirection: 'row',
-      }}
-    >
-      <Button
-        title="Save"
-        onPress={() => save() })}
-      />
-      <Button title="Reset" onPress={() => reset()} />
-    </View>
-  )}
-</Autografo>
+```jsx
+class MyComponent extends Component {
+  handleSave = ({ url, base64 }) => {
+    // Depending how save is called, will return url or base 64
+    console.log({ url, base64 })
+  }
+
+  handleReset = () => {
+    console.log('Signature has been reset')
+  }
+
+  render() {
+    return (
+      <Autografo
+        stroke={{ color: '#000000' }}
+        onSave={this.handleSave}
+        onReset={this.handleReset}
+        fileName="signature"
+        hiddenButtons
+      >
+        {(save, reset) => (
+          <View
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              flexDirection: 'row',
+            }}
+          >
+            <Button title="Save" onPress={() => save()} />
+            <Button title="Reset" onPress={() => reset()} />
+          </View>
+        )}
+      </Autografo>
+    )
+  }
+}
 ```
 
 ## Todo
