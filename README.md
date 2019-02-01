@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-yarn add react-native-autografo # or npm i
+yarn add react-native-autografo
 ```
 
 Link module
