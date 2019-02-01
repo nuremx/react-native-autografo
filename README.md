@@ -1,9 +1,9 @@
 # react-native-autografo
 
-[![npm version](https://img.shields.io/npm/v/:packageName.svg)](https://img.shields.io/npm/v/:packageName.svg)
+[![npm version](https://img.shields.io/npm/v/react-native-autografo.svg)](https://img.shields.io/npm/v/react-native-autografo.svg)
 [![Swift Version](https://img.shields.io/badge/Swift-4.0.x-orange.svg)](https://swift.org)
 
-[![downloads](https://img.shields.io/npm/dw/:packageName.svg)](https://img.shields.io/npm/dw/:packageName.svg)
+[![downloads](https://img.shields.io/npm/dw/react-native-autografo.svg)](https://img.shields.io/npm/dw/react-native-autografo.svg)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 > iOS only
