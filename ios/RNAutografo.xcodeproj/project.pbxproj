@@ -11,7 +11,6 @@
 		77501AAE2203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AA82203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift */; };
 		77501AAF2203FE3C00B666E1 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */; };
 		77501AB02203FE3C00B666E1 /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */; };
-		77501AB12203FE3C00B666E1 /* RNAutografo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAB2203FE3C00B666E1 /* RNAutografo.m */; };
 		77501AB22203FE3C00B666E1 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAC2203FE3C00B666E1 /* SignatureDrawingViewController.swift */; };
 		77501AB32203FE3C00B666E1 /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */; };
 		77501AB52203FE4C00B666E1 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */; };
@@ -34,11 +33,9 @@
 /* Begin PBXFileReference section */
 		77501A942203FC8900B666E1 /* RNAutografo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNAutografo-Bridging-Header.h"; sourceTree = "<group>"; };
 		77501A9C2203FC8A00B666E1 /* Autografo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autografo.swift; sourceTree = "<group>"; };
-		77501AA72203FE3C00B666E1 /* RNAutografo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNAutografo-Bridging-Header.h"; sourceTree = "<group>"; };
 		77501AA82203FE3C00B666E1 /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
 		77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
 		77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
-		77501AAB2203FE3C00B666E1 /* RNAutografo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAutografo.m; sourceTree = "<group>"; };
 		77501AAC2203FE3C00B666E1 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
 		77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
 		77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
@@ -62,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				77501AB42203FE4C00B666E1 /* CGPoint+Extensions.swift */,
-				77501AA72203FE3C00B666E1 /* RNAutografo-Bridging-Header.h */,
-				77501AAB2203FE3C00B666E1 /* RNAutografo.m */,
 				77501AA92203FE3C00B666E1 /* SignatureBezierProvider.swift */,
 				77501AAD2203FE3C00B666E1 /* SignatureDrawingModel.swift */,
 				77501AAA2203FE3C00B666E1 /* SignatureDrawingModelAsync.swift */,
@@ -168,7 +163,6 @@
 				77501AB72203FE8000B666E1 /* AutografoViewManager.swift in Sources */,
 				77501AA42203FC8A00B666E1 /* Autografo.swift in Sources */,
 				77501AB32203FE3C00B666E1 /* SignatureDrawingModel.swift in Sources */,
-				77501AB12203FE3C00B666E1 /* RNAutografo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

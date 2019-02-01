@@ -1,3 +1,11 @@
+//
+//  Autografo.swift
+//  RNAutografo
+//
+//  Created by César Guadarrama on 1/31/19.
+//  Copyright © 2019 Nure. All rights reserved.
+//
+
 import UIKit
 
 class AutografoView: UIView {

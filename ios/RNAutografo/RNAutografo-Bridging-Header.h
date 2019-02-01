@@ -1,5 +1,9 @@
 //
-//  Use this file to import your target's public headers that you would like to expose to Swift.
+//  RNAutografo-Bridging-Header.h
+//  RNAutografo
+//
+//  Created by César Guadarrama on 1/31/19.
+//  Copyright © 2019 Nure. All rights reserved.
 //
 
 #import <React/RCTBridgeModule.h>
