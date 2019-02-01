@@ -71,4 +71,6 @@ class MyComponent extends Component {
 
 ## License
 
+Based on awersome project [**Uber Signature**](https://github.com/uber/UberSignature)
+
 MIT - LICENSE
