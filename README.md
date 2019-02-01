@@ -47,6 +47,7 @@ class MyComponent extends Component {
         hiddenButtons
       >
         {(save, reset) => (
+          {/* This will be the controls showed at the top of the view */}
           <View
             style={{
               display: 'flex',
