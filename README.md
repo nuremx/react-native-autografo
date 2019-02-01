@@ -1,5 +1,7 @@
 # react-native-autografo
 
+![React Native Autografo](resources/autografo.gif)
+
 [![npm version](https://img.shields.io/npm/v/react-native-autografo.svg)](https://img.shields.io/npm/v/react-native-autografo.svg)
 [![Swift Version](https://img.shields.io/badge/Swift-4.0.x-orange.svg)](https://swift.org)
 
@@ -7,6 +9,8 @@
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 > iOS only
+
+React Native component to obtain user signature on a png image, saved to device storage or returned in base64
 
 ## Installation
 
