@@ -33,7 +33,7 @@ react-native link react-native-autografo
 ```jsx
 class MyComponent extends Component {
   handleSave = ({ url, base64 }) => {
-    // Depending how save is called, will return url or base 64
+    // Depending how save is called or fileName property is provided, will return url or base 64
     console.log({ url, base64 })
   }
 
@@ -56,6 +56,8 @@ class MyComponent extends Component {
               display: 'flex',
               justifyContent: 'space-between',
               flexDirection: 'row',
+              height: 'auto',
+              width: '100%',
             }}
           >
             <Button title="Save" onPress={() => save()} />
