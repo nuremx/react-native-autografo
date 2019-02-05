@@ -26,7 +26,7 @@ react-native link react-native-autografo
 
 ### iOS Notes
 
-**Important**. Since this module uses Swift and RN projects are based in Obj-C, you will need to <ins>add an empty Swift file</ins> to make this module work. See related [Stack Overflow Post](https://stackoverflow.com/questions/50096025/it-gives-errors-when-using-swift-static-library-with-objective-c-project)
+**Important**. Since this module uses Swift and RN projects are based in Obj-C, you will need to <ins>add an empty Swift file</ins> to your Xcode project to make this library work. See related [Stack Overflow Post](https://stackoverflow.com/questions/50096025/it-gives-errors-when-using-swift-static-library-with-objective-c-project)
 
 ## Usage
 
