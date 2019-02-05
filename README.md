@@ -88,6 +88,7 @@ class MyComponent extends Component {
 
 ## Todo
 
+- [ ] Set stroke width
 - [ ] Android version
 
 ## License
