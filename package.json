@@ -1,6 +1,6 @@
 {
   "name": "react-native-autografo",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "React Native component to obtain user signature on a png image, saved to device storage or returned in base64",
   "main": "index.js",
   "scripts": {
